@@ -9,6 +9,12 @@
         { "name": "Sushuang", "email": "sushuang0322@gmail.com" }
     ],
     "main": "zrender",
+    "jspm": {
+        "main": "src/zrender",
+        "map": {
+            "." : "src"
+        }
+    },
     "description": "一个轻量级的Canvas类库，MVC封装，数据驱动，提供类Dom事件模型，让canvas绘图大不同！",
     "homepage": "https://ecomfe.github.com/zrender"
 }
